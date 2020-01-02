@@ -63,6 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LEVEL1\Scripts\Axle.cs" />
+    <Compile Include="Assets\LEVEL1\Scripts\Camera2D.cs" />
+    <Compile Include="Assets\LEVEL1\Scripts\Car.cs" />
+    <Compile Include="Assets\LEVEL1\Scripts\Engine.cs" />
+    <Compile Include="Assets\LEVEL1\Scripts\Tire.cs" />
     <Compile Include="Assets\Scripts\AttackEnemy.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\DestroyOverTime.cs" />
@@ -130,6 +135,30 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>B:/UNITY 3D/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -307,6 +336,15 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>B:/UNITY 3D/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>B:/UNITY 3D/2019.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

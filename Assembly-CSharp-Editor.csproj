@@ -114,6 +114,30 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>B:/UNITY 3D/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -302,6 +326,21 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>B:/SMT 5/PEMROG GAME/TUBES ALAS ADVENTURE/ALAS ADVENTURE/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
