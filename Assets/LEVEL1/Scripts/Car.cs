@@ -179,22 +179,18 @@ public class Car : MonoBehaviour {
 			}
 
 			float steerInput = 0;
-			/*
 			if(Input.GetKey(KeyCode.LeftArrow))	{
 				steerInput = 1;
 			}
 			else if(Input.GetKey(KeyCode.RightArrow)) {
 				steerInput = -1;
 			}
-			*/
 
-			/*
 			if (Input.GetKeyDown (KeyCode.A)) {
 				Engine.ShiftUp();
 			} else if (Input.GetKeyDown (KeyCode.Z)) {
 				Engine.ShiftDown();
 			}
-			*/
 
 			// Apply filters to our steer direction
 			SteerDirection = SmoothSteering (steerInput);
@@ -239,7 +235,6 @@ public class Car : MonoBehaviour {
 		CenterOfGravity.transform.localPosition = Vector2.Lerp (CenterOfGravity.transform.localPosition, pos, 0.1f);
 
 		// Skidmarks
-		/*
 		if (Mathf.Abs (LocalAcceleration.y) > 18 || EBrake == 1) {
 			AxleRear.TireRight.SetTrailActive (true);
 			AxleRear.TireLeft.SetTrailActive (true);
@@ -247,7 +242,6 @@ public class Car : MonoBehaviour {
 			AxleRear.TireRight.SetTrailActive (false);
 			AxleRear.TireLeft.SetTrailActive (false);
 		}
-		*/
 
 		// Automatic transmission
 		Engine.UpdateAutomaticTransmission (Rigidbody2D);
@@ -407,7 +401,6 @@ public class Car : MonoBehaviour {
 		return steer;
 	}
 
-	/*
 	void OnGUI (){
         if (IsPlayerControlled)
         {
@@ -447,6 +440,5 @@ public class Car : MonoBehaviour {
             GUI.Label(new Rect(5, 545, 300, 20), "AxleR Torque: " + AxleRear.Torque.ToString());
         }
 	}
-	*/
 
 }
