@@ -178,7 +178,7 @@ public class Car : MonoBehaviour {
 				EBrake = 1;
 			}
 
-			float steerInput = 0;
+			/*float steerInput = 0;
 			if(Input.GetKey(KeyCode.LeftArrow))	{
 				steerInput = 1;
 			}
@@ -190,10 +190,10 @@ public class Car : MonoBehaviour {
 				Engine.ShiftUp();
 			} else if (Input.GetKeyDown (KeyCode.Z)) {
 				Engine.ShiftDown();
-			}
+			}*/
 
 			// Apply filters to our steer direction
-			SteerDirection = SmoothSteering (steerInput);
+			//SteerDirection = SmoothSteering (steerInput);
 			SteerDirection = SpeedAdjustedSteering (SteerDirection);
 
 			// Calculate the current angle the tires are pointing
@@ -405,7 +405,7 @@ public class Car : MonoBehaviour {
         if (IsPlayerControlled)
         {
             GUI.Label(new Rect(5, 5, 300, 20), "Speed: " + SpeedKilometersPerHour.ToString());
-            GUI.Label(new Rect(5, 25, 300, 20), "RPM: " + Engine.GetRPM(Rigidbody2D).ToString());
+           /*GUI.Label(new Rect(5, 25, 300, 20), "RPM: " + Engine.GetRPM(Rigidbody2D).ToString());
             GUI.Label(new Rect(5, 45, 300, 20), "Gear: " + (Engine.CurrentGear + 1).ToString());
             GUI.Label(new Rect(5, 65, 300, 20), "LocalAcceleration: " + LocalAcceleration.ToString());
             GUI.Label(new Rect(5, 85, 300, 20), "Acceleration: " + Acceleration.ToString());
@@ -437,7 +437,7 @@ public class Car : MonoBehaviour {
             GUI.Label(new Rect(5, 505, 300, 20), "AxleR SlipAngle: " + AxleRear.SlipAngle.ToString());
 
             GUI.Label(new Rect(5, 525, 300, 20), "AxleF Torque: " + AxleFront.Torque.ToString());
-            GUI.Label(new Rect(5, 545, 300, 20), "AxleR Torque: " + AxleRear.Torque.ToString());
+            GUI.Label(new Rect(5, 545, 300, 20), "AxleR Torque: " + AxleRear.Torque.ToString());*/
         }
 	}
 
