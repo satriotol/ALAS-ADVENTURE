@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/LEVEL3/Scenes/Test.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
