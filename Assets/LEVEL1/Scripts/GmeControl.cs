@@ -6,9 +6,6 @@ public class GmeControl : MonoBehaviour
 {
     public GameObject green;
     public GameObject red;
-
-
-
     void Start()
     {
         StartCoroutine(WaitAndPrint());
