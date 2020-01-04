@@ -7,11 +7,8 @@ public class GmeControl : MonoBehaviour
     public GameObject green;
     public GameObject red;
 
-    /*IEnumerator Start()
-    {
-        yield return StartCoroutine(WaitAndPrint(10.0f));
-    }
-    */
+
+
     void Start()
     {
         StartCoroutine(WaitAndPrint());
@@ -30,13 +27,5 @@ public class GmeControl : MonoBehaviour
         }
 
     }
-    /*public void Enable()
-    {
-        green.SetActive(true);
-    }
-    public void Disable()
-    {
-        green.SetActive(false);
-    }
-    */
+
 }
