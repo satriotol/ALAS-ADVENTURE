@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: a408c3c99866f024a895654e5bfc88e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4923150297587952842
+    second: hutan_0
+  - first:
+      213: -2259814219892096882
+    second: hutan_1
+  - first:
+      213: 3927227230896867243
+    second: hutan_2
+  - first:
+      213: -5617502716120130955
+    second: hutan_3
+  - first:
+      213: 4316091988103025902
+    second: hutan_4
+  - first:
+      213: 6791226730301697753
+    second: hutan_5
+  - first:
+      213: -6525434034550338253
+    second: hutan_6
+  - first:
+      213: 5151910574762358625
+    second: hutan_7
+  - first:
+      213: 5894986608430395397
+    second: hutan_8
+  - first:
+      213: -6795824305336140372
+    second: hutan_9
+  - first:
+      213: 5393395152586100168
+    second: hutan_10
+  - first:
+      213: 3859900182151748710
+    second: hutan_11
+  - first:
+      213: -2771457481524061320
+    second: hutan_12
+  - first:
+      213: -646577739445408832
+    second: hutan_13
+  - first:
+      213: 3232642931159703953
+    second: hutan_14
+  - first:
+      213: 1555167460830989290
+    second: hutan_15
+  - first:
+      213: 529384601295363719
+    second: hutan_16
+  - first:
+      213: -1202997298818748971
+    second: hutan_17
+  - first:
+      213: 5917902162215002885
+    second: hutan_18
+  - first:
+      213: -4346162066049933422
+    second: hutan_19
+  - first:
+      213: 8992349723479991279
+    second: hutan_20
+  - first:
+      213: -941001516910034203
+    second: hutan_21
+  - first:
+      213: -9131562263953885113
+    second: hutan_22
+  - first:
+      213: 7258260465968112877
+    second: hutan_23
+  - first:
+      213: 6413297447126072835
+    second: hutan_24
+  - first:
+      213: -7802530551999819676
+    second: hutan_25
+  - first:
+      213: 6227714769222550689
+    second: hutan_26
+  - first:
+      213: 3656294845065829875
+    second: hutan_27
+  - first:
+      213: -4287381244694667226
+    second: hutan_28
+  - first:
+      213: 6412852086835671206
+    second: hutan_29
+  - first:
+      213: 3445958189834915283
+    second: hutan_30
+  - first:
+      213: -3301385583696985855
+    second: hutan_31
+  - first:
+      213: -6808061451090474428
+    second: hutan_32
+  - first:
+      213: 5396782405997969938
+    second: hutan_33
+  - first:
+      213: -6202839688601173838
+    second: hutan_34
+  - first:
+      213: -1649153807365662263
+    second: hutan_35
+  - first:
+      213: -1184601273235443368
+    second: hutan_36
+  - first:
+      213: 3786371907943762507
+    second: hutan_37
+  - first:
+      213: 5125611275383364644
+    second: hutan_38
+  - first:
+      213: 5920712123156433668
+    second: hutan_39
+  - first:
+      213: 301921484893249378
+    second: hutan_40
+  - first:
+      213: -870898258713682913
+    second: hutan_41
+  - first:
+      213: 2676993556683875368
+    second: hutan_42
+  - first:
+      213: 946908985112699985
+    second: hutan_43
+  - first:
+      213: 5201719985292862606
+    second: hutan_44
+  - first:
+      213: 4459768030186845231
+    second: hutan_45
+  - first:
+      213: 4328429063123660601
+    second: hutan_46
+  - first:
+      213: -8437805482613148544
+    second: hutan_47
+  - first:
+      213: -1738734544263733386
+    second: hutan_48
+  - first:
+      213: 2137014505704224489
+    second: hutan_49
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hutan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 97
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ca34a185ad60418360fd14a20b331
+      internalID: 4923150297587952842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 898
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eda8440cae64254593bb28fddf22a56
+      internalID: -2259814219892096882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 898
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a50dfb4a8a9ef4e895f87d4e067745
+      internalID: 3927227230896867243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 898
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea6cde44a0711f4dbcc9c106b66cdcf
+      internalID: -5617502716120130955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 900
+        width: 132
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55e7aa019c71334e818a32c3c87aa5f
+      internalID: 4316091988103025902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 224
+        width: 385
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab4b3c64d903a243868dda7aeba3247
+      internalID: 6791226730301697753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 803
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb7d00c9794664ca21a01571a76488
+      internalID: -6525434034550338253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 769
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c85bb895e8dc947b853f9684ee6485
+      internalID: 5151910574762358625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_8
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 771
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5440ede32a084a8b5cf329c18c38f
+      internalID: 5894986608430395397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_9
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 768
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0875bfde9cebeb5408cdf66160bab3a7
+      internalID: -6795824305336140372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 776
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8daf27c4df8aca4790b2eec5bd49012
+      internalID: 5393395152586100168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 674
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00996036794a1934191e9a9acd26f098
+      internalID: 3859900182151748710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 748
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b165e852c70818b46a8542ef2e86369e
+      internalID: -2771457481524061320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_13
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 726
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d4172e9ac9084d8e7917c6bc376ca
+      internalID: -646577739445408832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_14
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 715
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a78529e3f825cc4ba761ae8e4d00e33
+      internalID: 3232642931159703953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 693
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13f2a5466874764ba6adee7c334e9c0
+      internalID: 1555167460830989290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 689
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f098dca073f25b5459321aa00d2b178e
+      internalID: 529384601295363719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 674
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ed29612bad9a74797f858026b25acf
+      internalID: -1202997298818748971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 641
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c14c8ed5c6f124ab77ee6e3b9e1e82
+      internalID: 5917902162215002885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_19
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 601
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f00b5571759784b814c1341348ae00
+      internalID: -4346162066049933422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 630
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc745646fd0f14ba9daba2adddaf4d
+      internalID: 8992349723479991279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 612
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201bb0f40badf7f478384c6566efad0a
+      internalID: -941001516910034203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 610
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bd5e8dbf7464b448989ddcc69a45db
+      internalID: -9131562263953885113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 230
+        width: 256
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f414d95afdf053443a01dee18946de70
+      internalID: 7258260465968112877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 513
+        width: 30
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7045dc567f70f74c808ee6db754fb2e
+      internalID: 6413297447126072835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 513
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf4653504403f748b0f5936d32a89c7
+      internalID: -7802530551999819676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_26
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 480
+        width: 57
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb92a5dc50974e4ab2ac782f5a71c61
+      internalID: 6227714769222550689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 417
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700887b7a02ac624fa843a21ef188ffd
+      internalID: 3656294845065829875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 352
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6465fd6d1a5329e428b18f0b41f35500
+      internalID: -4287381244694667226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_29
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 384
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b399b7312d4ecb44a944ee41fa56cccd
+      internalID: 6412852086835671206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_30
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 384
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0359390dab24b8947939e350dfe95a7f
+      internalID: 3445958189834915283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 352
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3913cd75606f9644a43532a26d8f89f
+      internalID: -3301385583696985855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_32
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 353
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497dab624e1feed4ca6398ba328ac86f
+      internalID: -6808061451090474428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_33
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 329
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d77ba6b438a5f04296fd7609ca0ce22
+      internalID: 5396782405997969938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_34
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 327
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107e610ca0cd42a49bdfa98316b416a2
+      internalID: -6202839688601173838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_35
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 292
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb698b76dd74624c8aac385c13e0650
+      internalID: -1649153807365662263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_36
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 289
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4785fb4d6bae7af4eab09fcba59eaecb
+      internalID: -1184601273235443368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 32
+        width: 169
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba43cf30510fe34481e0d78227a345a
+      internalID: 3786371907943762507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_38
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 260
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5ab8977423854d9757d445269a56b
+      internalID: 5125611275383364644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_39
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 256
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046dc8914a091d04b886cd80f7a6142b
+      internalID: 5920712123156433668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_40
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 219
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6e4f42de1bef340b9585abbc421a91
+      internalID: 301921484893249378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 256
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75916ac85c79e1644bf6e4f8371607dc
+      internalID: -870898258713682913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 230
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd129e61675849f41afd15a10c488aac
+      internalID: 2676993556683875368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_43
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 226
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f1b589f7214594897b20c23be5f05a
+      internalID: 946908985112699985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_44
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 224
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b7dd29b478e374a905c9da03f292f0
+      internalID: 5201719985292862606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 256
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89cd17a8d7d80f4ba440f217289f979
+      internalID: 4459768030186845231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_46
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 32
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8689ed5e7d3ba54bb7a8cef36374acc
+      internalID: 4328429063123660601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136c465e0bd650e4fb6655555bd912f0
+      internalID: -8437805482613148544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_48
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536dbf3e4e816041b721a0649e328da
+      internalID: -1738734544263733386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hutan_49
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 633
+        width: 104
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5ba1a6b2268747b6917a37d59487d
+      internalID: 2137014505704224489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
