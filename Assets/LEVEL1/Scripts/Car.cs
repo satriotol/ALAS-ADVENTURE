@@ -189,7 +189,7 @@ public class Car : MonoBehaviour
 			{
 				EBrake = 1;
 			}
-			/*
+			
 
 			float steerInput = 0;
 			if (Input.GetKey(KeyCode.LeftArrow))
@@ -200,7 +200,7 @@ public class Car : MonoBehaviour
 			{
 				steerInput = -1;
 			}
-
+/*
 			if (Input.GetKeyDown(KeyCode.A))
 			{
 				Engine.ShiftUp();
@@ -209,6 +209,7 @@ public class Car : MonoBehaviour
 			{
 				Engine.ShiftDown();
 			}
+			*/
 			
 
 			// Apply filters to our steer direction
@@ -221,7 +222,7 @@ public class Car : MonoBehaviour
 			// Set front axle tires rotation
 			AxleFront.TireRight.transform.localRotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg * SteerAngle);
 			AxleFront.TireLeft.transform.localRotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg * SteerAngle);
-			*/
+			
 		}
 
 
@@ -258,17 +259,17 @@ public class Car : MonoBehaviour
 		// Update the "Center Of Gravity" dot to indicate the weight shift
 		CenterOfGravity.transform.localPosition = Vector2.Lerp(CenterOfGravity.transform.localPosition, pos, 0.1f);
 
-		// Skidmarks
-		if (Mathf.Abs(LocalAcceleration.y) > 18 || EBrake == 1)
-		{
-			AxleRear.TireRight.SetTrailActive(true);
-			AxleRear.TireLeft.SetTrailActive(true);
-		}
-		else
-		{
-			AxleRear.TireRight.SetTrailActive(false);
-			AxleRear.TireLeft.SetTrailActive(false);
-		}
+		// // Skidmarks
+		// if (Mathf.Abs(LocalAcceleration.y) > 18 || EBrake == 1)
+		// {
+		// 	AxleRear.TireRight.SetTrailActive(true);
+		// 	AxleRear.TireLeft.SetTrailActive(true);
+		// }
+		// else
+		// {
+		// 	AxleRear.TireRight.SetTrailActive(false);
+		// 	AxleRear.TireLeft.SetTrailActive(false);
+		// }
 
 		// Automatic transmission
 		Engine.UpdateAutomaticTransmission(Rigidbody2D);
