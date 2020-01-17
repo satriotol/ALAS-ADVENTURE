@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Car : MonoBehaviour
 {
-    Text infokecepatan;
 
     [SerializeField]
 	bool IsPlayerControlled = false;
@@ -161,7 +160,6 @@ public class Car : MonoBehaviour
 
 	void Start()
 	{
-        infokecepatan = GameObject.Find("UIKecepatan").GetComponent<Text>();
         AxleFront.Init(Rigidbody2D, WheelBase);
 		AxleRear.Init(Rigidbody2D, WheelBase);
 
@@ -170,7 +168,6 @@ public class Car : MonoBehaviour
 
 	void Update()
 	{
-        infokecepatan.text = SpeedKilometersPerHour.ToString();
 
 
         if (IsPlayerControlled)
