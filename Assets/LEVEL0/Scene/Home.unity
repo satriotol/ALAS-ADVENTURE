@@ -2253,10 +2253,10 @@ MonoBehaviour:
   Conversation: 0
   targetlayer:
     serializedVersion: 2
-    m_Bits: 0
-  deteksilampu: {fileID: 0}
+    m_Bits: 2048
+  deteksinpc: {fileID: 367487634}
   jangkauan: 0
-  DialogueCanvas: {fileID: 0}
+  DialogueCanvas: {fileID: 514373714}
 --- !u!114 &1232718427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,7 +2273,7 @@ MonoBehaviour:
   targetlayer:
     serializedVersion: 2
     m_Bits: 2048
-  deteksilampu: {fileID: 367487634}
+  deteksinpc: {fileID: 367487634}
   jangkauan: 0
   DialogueCanvas: {fileID: 514373714}
 --- !u!114 &1232718432

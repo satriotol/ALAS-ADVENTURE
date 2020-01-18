@@ -6,13 +6,13 @@ public class StartConversation : MonoBehaviour
 {
     public bool Conversation;
     public LayerMask targetlayer;
-    public Transform deteksilampu;
+    public Transform deteksinpc;
     public float jangkauan;
     public GameObject DialogueCanvas;
 
     void Update()
     {
-        Conversation = Physics2D.OverlapCircle(deteksilampu.position, jangkauan, targetlayer);
+        Conversation = Physics2D.OverlapCircle(deteksinpc.position, jangkauan, targetlayer);
 
 
         if (Conversation == true)
