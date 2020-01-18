@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 
 public class OwnCoding : MonoBehaviour
@@ -11,6 +13,9 @@ public class OwnCoding : MonoBehaviour
     public Transform deteksilampu;
     public float jangkauan;
     public GameObject kalah;
+    void start()
+    {
+    }
 
     void Update()
     {
@@ -24,5 +29,6 @@ public class OwnCoding : MonoBehaviour
             kalah.SetActive(true);
         }
     }
+
 
 }

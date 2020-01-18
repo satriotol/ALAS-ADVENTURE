@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
+
 
 public class Car : MonoBehaviour
 {
 
-	[SerializeField]
+    [SerializeField]
 	bool IsPlayerControlled = false;
 
 	[SerializeField]
@@ -158,8 +160,7 @@ public class Car : MonoBehaviour
 
 	void Start()
 	{
-
-		AxleFront.Init(Rigidbody2D, WheelBase);
+        AxleFront.Init(Rigidbody2D, WheelBase);
 		AxleRear.Init(Rigidbody2D, WheelBase);
 
 		TrackWidth = Vector2.Distance(AxleRear.TireLeft.transform.position, AxleRear.TireRight.transform.position);
@@ -168,7 +169,8 @@ public class Car : MonoBehaviour
 	void Update()
 	{
 
-		if (IsPlayerControlled)
+
+        if (IsPlayerControlled)
 		{
 
 			// Handle Input
@@ -439,7 +441,6 @@ public class Car : MonoBehaviour
 		float steer = steerInput * (1.0f - (AbsoluteVelocity / SpeedSteerCorrection));
 		return steer;
 	}
-
 	void OnGUI()
 	{
 		if (IsPlayerControlled)

@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc13de573b1c0904685fa418bf77cdc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Test
+  levelToLoad: Level3
   exitPoint: Test House Out
 --- !u!61 &227751582
 BoxCollider2D:
@@ -200,6 +200,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1565624519441516, guid: f9203eed4fa1c94419b1efcff9db5bf7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882236883379808, guid: f9203eed4fa1c94419b1efcff9db5bf7, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -388,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc13de573b1c0904685fa418bf77cdc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Test
+  levelToLoad: Level3
   exitPoint: Test House Secret Out
 --- !u!61 &1078645503
 BoxCollider2D:
