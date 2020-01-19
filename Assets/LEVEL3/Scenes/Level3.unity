@@ -255,8 +255,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b07e482156890e4f852449063142875, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!1 &89686469
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +300,6 @@ Transform:
   m_Father: {fileID: 1356120519}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> cad3ce275edcaa965f608fb88db2cd97d1a45f35
 --- !u!1001 &138420396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -671,8 +668,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403224115}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &535724043
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +740,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelToLoad: TestHouse
   exitPoint: Test House In
->>>>>>> cad3ce275edcaa965f608fb88db2cd97d1a45f35
 --- !u!1 &659156113
 GameObject:
   m_ObjectHideFlags: 0
