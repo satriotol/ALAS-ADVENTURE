@@ -25,7 +25,6 @@ public class PauseGame : MonoBehaviour
     }
     public void Pause()
     {
-
         Time.timeScale = 0f;
         GameIsPaused = true;
         AudioListener.volume = 1f;
