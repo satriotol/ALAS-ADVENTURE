@@ -3346,6 +3346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: KeyboardCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5946040193743775005, guid: e329457cf746e504fa0fedc18ab6ce35,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5946040193743774993, guid: e329457cf746e504fa0fedc18ab6ce35,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3470,16 +3475,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: DialogueCanvas
-      value: 
-      objectReference: {fileID: 514373714}
-    - target: {fileID: 8603212177760962099, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: DialogueCanvas
-      value: 
-      objectReference: {fileID: 514373714}
     - target: {fileID: 8605062355471503383, guid: e6e86a8c780b4d84ebdb56566ee09309,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3535,6 +3530,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8603212177760962099, guid: e6e86a8c780b4d84ebdb56566ee09309,
+        type: 3}
+      propertyPath: DialogueCanvas
+      value: 
+      objectReference: {fileID: 514373714}
+    - target: {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309,
+        type: 3}
+      propertyPath: DialogueCanvas
+      value: 
+      objectReference: {fileID: 514373714}
     m_RemovedComponents:
     - {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6e86a8c780b4d84ebdb56566ee09309, type: 3}
