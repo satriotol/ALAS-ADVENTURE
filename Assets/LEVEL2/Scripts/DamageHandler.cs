@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DamageHandler : MonoBehaviour
 {
@@ -8,13 +9,14 @@ public class DamageHandler : MonoBehaviour
     public float invulnPeriod = 2f;
 
     float invulnTimer = 0f;
-    float invulnAnimTimer = 0;  
+    float invulnAnimTimer = 0;
+  
     int correctLayer;
 
     SpriteRenderer spriteRend;
 
     void Start()
-    {
+    {       
         correctLayer = gameObject.layer;
 
         spriteRend = GetComponent<SpriteRenderer>();
@@ -28,7 +30,7 @@ public class DamageHandler : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D() 
+    void OnTriggerEnter2D()
     {
         Debug.Log("Trigger!");
 
@@ -36,12 +38,14 @@ public class DamageHandler : MonoBehaviour
         invulnTimer = invulnPeriod;
 
         gameObject.layer = 13;
+
     }
 
     void Update() 
     {
         if (invulnTimer > 0) 
         {
+            
             invulnTimer -= Time.deltaTime;
 
             if (invulnTimer <= 0)
@@ -71,6 +75,5 @@ public class DamageHandler : MonoBehaviour
     {
         Destroy(gameObject); 
     }
-
    
 }

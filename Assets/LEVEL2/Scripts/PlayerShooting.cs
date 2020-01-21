@@ -15,6 +15,7 @@ public class PlayerShooting : MonoBehaviour
     float cooldownTimer = 0;
 
     int laserLayer;
+    int score = 0;
 
     void Start()
     {

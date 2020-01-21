@@ -13,7 +13,7 @@ public class EnemySpawner : MonoBehaviour
     float nextEnemy1 = 1;
     float nextEnemy2 = 1;
 
-    float spawnDistance1 = 10f;
+    float spawnDistance1 = 8f;
     float spawnDistance2 = 5f;
      
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
         if (nextEnemy1 <= 0)
         {
             nextEnemy1 = enemyRate1;
-            enemyRate1 *= 1f;
+            enemyRate1 *= 0.9f;
 
             if (enemyRate1 < 2)
             {
