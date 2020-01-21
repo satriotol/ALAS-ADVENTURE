@@ -169,7 +169,6 @@ public class Car : MonoBehaviour
 	void Update()
 	{
 
-
         if (IsPlayerControlled)
 		{
 
@@ -192,7 +191,6 @@ public class Car : MonoBehaviour
 				EBrake = 1;
 			}
 			
-
 			float steerInput = 0;
 			if (Input.GetKey(KeyCode.A))
 			{
@@ -215,7 +213,6 @@ public class Car : MonoBehaviour
 			AxleFront.TireLeft.transform.localRotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg * SteerAngle);
 			
 		}
-
 
 		// Calculate weight center of four tires
 		// This is just to draw that red dot over the car to indicate what tires have the most weight
