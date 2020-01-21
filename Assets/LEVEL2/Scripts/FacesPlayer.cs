@@ -13,7 +13,7 @@ public class FacesPlayer : MonoBehaviour
     {
         if (player == null) 
         {
-            GameObject gameObject = GameObject.Find("playerShip");
+            GameObject gameObject = GameObject.FindWithTag("Player");
 
             if (gameObject != null) 
             {
