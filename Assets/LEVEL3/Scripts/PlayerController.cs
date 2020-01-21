@@ -35,14 +35,14 @@ public class PlayerController : MonoBehaviour {
 
         playerRigidBody = GetComponent<Rigidbody2D> ();
 
-		if (!playerExists) {
-			playerExists = true;
-			//Doesn't destroy object when the scene loads
-			DontDestroyOnLoad (transform.gameObject);
-		}
-		else {
-			Destroy (gameObject);
-        }
+		//if (!playerExists) {
+		//	playerExists = true;
+		//	//Doesn't destroy object when the scene loads
+		//	DontDestroyOnLoad (transform.gameObject);
+		//}
+		//else {
+		//	Destroy (gameObject);
+  //      }
 
     }
 	
