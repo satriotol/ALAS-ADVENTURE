@@ -20,11 +20,13 @@ public class Openit : MonoBehaviour
         {
             DialogueCanvas.SetActive(true);
             Time.timeScale = 0f;
+            AudioListener.volume = 0f;
         }
         else
         {
             DialogueCanvas.SetActive(false);
             Time.timeScale = 1f;
+            AudioListener.volume = 1f;
         }
     }
 }
