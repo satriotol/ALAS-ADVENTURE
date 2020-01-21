@@ -4297,37 +4297,37 @@ PrefabInstance:
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hai Alas, Kau akan Berlibur?
+      value: 'Ayah : Hai Alas, Kau akan Berlibur?'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Iya aku akan berlibur yogya
+      value: 'Alas : Iya aku akan berlibur yogya'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Jangan lupa oleh-oleh
+      value: 'Ayah : Jangan lupa oleh-oleh'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Oleh - oleh apa?
+      value: 'Alas : Oleh - oleh apa?'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: Tiruan keris hanacaraka yang khas di daerah sana ya
+      value: 'Ayah : Tiruan keris hanacaraka yang khas di daerah sana ya'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
-      value: Siaaap, kalau gitu aku berangkat dulu ya
+      value: 'Alas : Siaaap, kalau gitu aku berangkat dulu ya'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187799192931, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[6]
-      value: oke Alas, hati hati ya
+      value: 'Ayah : oke Alas, hati hati ya'
       objectReference: {fileID: 0}
     - target: {fileID: 925987187222145488, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
