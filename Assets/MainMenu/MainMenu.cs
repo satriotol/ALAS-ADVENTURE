@@ -19,8 +19,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit!!");
         Application.Quit();
     }
-    //public void Restart()
-    //{
-      //  Application.LoadLevel(Application.loadedLevel);
-    //}
+    public void Restart()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
 }

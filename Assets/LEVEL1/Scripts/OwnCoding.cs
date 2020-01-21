@@ -27,6 +27,7 @@ public class OwnCoding : MonoBehaviour
             Debug.Log("Kena Gan");
             //SceneManager.LoadScene(0);
             kalah.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 
