@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartConversation : MonoBehaviour
+public class Deteksikeris : MonoBehaviour
 {
     public bool Conversation;
     public LayerMask targetlayer;
@@ -19,7 +19,7 @@ public class StartConversation : MonoBehaviour
         {
             Debug.Log("Kena Gan");
             DialogueCanvas.SetActive(true);
-
+            Time.timeScale = 0f;
         }
         else
         {

@@ -25,8 +25,9 @@ public class PlayerController : MonoBehaviour {
 	//Start point of the player
 	public string startPoint;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 
 		//I get the animator in the player
 		playerAnim = GetComponent<Animator> ();
@@ -34,16 +35,16 @@ public class PlayerController : MonoBehaviour {
 
         playerRigidBody = GetComponent<Rigidbody2D> ();
 
-		if (!playerExists) {
-			playerExists = true;
-			//Doesn't destroy object when the scene loads
-			DontDestroyOnLoad (transform.gameObject);
-		}
-		else {
-			Destroy (gameObject);
-		}
-	
-	}
+		//if (!playerExists) {
+		//	playerExists = true;
+		//	//Doesn't destroy object when the scene loads
+		//	DontDestroyOnLoad (transform.gameObject);
+		//}
+		//else {
+		//	Destroy (gameObject);
+  //      }
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -16,14 +16,14 @@ public class UIManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		if(!UIExist) {
-			UIExist = true;
-			//Doesn't destroy object when the scene loads
-			DontDestroyOnLoad (transform.gameObject);
-		}
-		else {
-			Destroy (gameObject);
-		}
+		//if(!UIExist) {
+		//	UIExist = true;
+		//	//Doesn't destroy object when the scene loads
+		//	DontDestroyOnLoad (transform.gameObject);
+		//}
+		//else {
+		//	Destroy (gameObject);
+		//}
 
 		thePlayerStats = GetComponent<PlayerStats> ();
 	}

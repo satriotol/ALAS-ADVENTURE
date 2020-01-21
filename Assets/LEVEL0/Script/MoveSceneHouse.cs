@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MoveScene : MonoBehaviour
+
+public class MoveSceneHouse : MonoBehaviour
 {
     public bool movescene;
     public LayerMask targetlayer;
@@ -17,8 +18,7 @@ public class MoveScene : MonoBehaviour
         if (movescene == true)
         {
             Debug.Log("Kena Gan");
-            Application.LoadLevel(2);
-            Time.timeScale = 0f;
+            SceneManager.LoadScene(4);
         }
     }
 }

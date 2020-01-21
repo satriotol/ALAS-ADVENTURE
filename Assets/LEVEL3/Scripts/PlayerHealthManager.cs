@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour {
 
 	public int playerMaxHealth;
-	public int playerCurrentHealth;
+    public int playerCurrentHealth;
 	// know if the player it's flashing
 	private bool flashActive;
 	public float flashLength;
@@ -24,9 +25,10 @@ public class PlayerHealthManager : MonoBehaviour {
 	void Update () {
 		if(playerCurrentHealth <= 0) {
 			gameObject.SetActive (false);
-		}
+            Application.LoadLevel(5);
+        }
 
-		if(flashActive) {
+        if (flashActive) {
 		//Makes the player go flashy
 			//If the count it's greater that 1.66 sec the playerSpriteRenderer goes 0
 			if(countFlashLength > flashLength * .66f) {

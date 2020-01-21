@@ -210,6 +210,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4482220121725301283, guid: 8e1d56755814c164c96683906f411428,
+        type: 3}
+      propertyPath: m_Name
+      value: Toko
+      objectReference: {fileID: 0}
     - target: {fileID: 1957081680543320616, guid: 8e1d56755814c164c96683906f411428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -265,10 +270,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4482220121725301283, guid: 8e1d56755814c164c96683906f411428,
+    - target: {fileID: 4623054966295074538, guid: 8e1d56755814c164c96683906f411428,
         type: 3}
-      propertyPath: m_Name
-      value: Toko
+      propertyPath: m_LocalPosition.y
+      value: -9.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623054966295074538, guid: 8e1d56755814c164c96683906f411428,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e1d56755814c164c96683906f411428, type: 3}

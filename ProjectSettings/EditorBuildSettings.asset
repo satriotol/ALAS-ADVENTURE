@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LEVEL3/Scenes/TestHouse.unity
     guid: 1c8d9d331b9baa24b9bc14d98c4a478a
+  - enabled: 1
+    path: Assets/LEVEL3/Scenes/level3mati.unity
+    guid: 7217b6f32e57c274aad32ff85cfcfcfc
   m_configObjects: {}
