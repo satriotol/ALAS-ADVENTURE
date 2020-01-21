@@ -86107,6 +86107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Win
       objectReference: {fileID: 0}
+    - target: {fileID: 6655772300282568489, guid: e14417827836dd64886d5ebd081879c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9191686259504648287, guid: e14417827836dd64886d5ebd081879c2,
         type: 3}
       propertyPath: m_LocalPosition.x
