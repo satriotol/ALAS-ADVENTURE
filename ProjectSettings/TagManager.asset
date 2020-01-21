@@ -19,6 +19,9 @@ TagManager:
   - Car
   - TrafficLight
   - NextScene
+  - Player
+  - Enemy
+  - Invulnerable
   - NPC
   - 
   - 

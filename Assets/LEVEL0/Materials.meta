@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD:Assets/main menu.meta
+<<<<<<< HEAD:Assets/main menu.meta
 guid: a50662a907a587f418e1d6f574d76e74
 =======
 guid: c7d97ada5e711ed40800d4008f4d0e58
 >>>>>>> 5b919275e5c18838c5f8383aac08a861eed39f98:Assets/LEVEL0/Prefabs.meta
+=======
+guid: 369fbf9eb7c1b5e439b06c700338a161
+>>>>>>> bfc730002a19916638d36695f9e8302f82151fd8:Assets/LEVEL0/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
