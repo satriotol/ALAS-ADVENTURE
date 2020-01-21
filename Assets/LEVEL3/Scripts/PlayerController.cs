@@ -2,8 +2,6 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-    public AudioClip walk;
-    AudioSource audio;
     //Speed of the player
     public float moveSpeed;
 	private float currentMoveSpeed;
@@ -32,8 +30,6 @@ public class PlayerController : MonoBehaviour {
 
 		//I get the animator in the player
 		playerAnim = GetComponent<Animator> ();
-        audio = GetComponent<AudioSource>();
-        InvokeRepeating("Update", 0.0f, 0.5f);
 
 
         playerRigidBody = GetComponent<Rigidbody2D> ();
@@ -66,7 +62,6 @@ public class PlayerController : MonoBehaviour {
 				playerRigidBody.velocity = new Vector2 (Input.GetAxisRaw ("Horizontal") * currentMoveSpeed, playerRigidBody.velocity.y);
 				playerMoving = true;
 				lastMovement = new Vector2 (Input.GetAxisRaw ("Horizontal"), 0f);
-                audio.PlayOneShot(walk);
             }
 
 			//Moving up and Down
