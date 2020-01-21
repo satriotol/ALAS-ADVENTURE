@@ -6,6 +6,7 @@ public class PauseGame : MonoBehaviour
 {
     public static bool GameIsPaused = true;
 
+
     void Update()
     {
         if (GameIsPaused)
