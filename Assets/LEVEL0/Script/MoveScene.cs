@@ -17,7 +17,7 @@ public class MoveScene : MonoBehaviour
         if (movescene == true)
         {
             Debug.Log("Kena Gan");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }
