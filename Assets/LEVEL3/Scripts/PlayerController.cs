@@ -25,8 +25,9 @@ public class PlayerController : MonoBehaviour {
 	//Start point of the player
 	public string startPoint;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 
 		//I get the animator in the player
 		playerAnim = GetComponent<Animator> ();
@@ -41,9 +42,9 @@ public class PlayerController : MonoBehaviour {
 		}
 		else {
 			Destroy (gameObject);
-		}
-	
-	}
+        }
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

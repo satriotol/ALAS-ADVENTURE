@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1f;
         Application.LoadLevel(0);
     }
+    public void loadlevel3()
+    {
+        Time.timeScale = 1f;
+        Application.LoadLevel(0);
+    }
     public void PlayGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
