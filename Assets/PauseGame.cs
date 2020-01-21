@@ -21,11 +21,13 @@ public class PauseGame : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
+        AudioListener.volume = 1f;
     }
     public void Pause()
     {
 
         Time.timeScale = 0f;
         GameIsPaused = true;
+        AudioListener.volume = 1f;
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Car : MonoBehaviour
 {
+    public AudioClip gas, rem;
 
     [SerializeField]
 	bool IsPlayerControlled = false;
@@ -163,7 +164,7 @@ public class Car : MonoBehaviour
         AxleFront.Init(Rigidbody2D, WheelBase);
 		AxleRear.Init(Rigidbody2D, WheelBase);
 
-		TrackWidth = Vector2.Distance(AxleRear.TireLeft.transform.position, AxleRear.TireRight.transform.position);
+        TrackWidth = Vector2.Distance(AxleRear.TireLeft.transform.position, AxleRear.TireRight.transform.position);
 	}
 
 	void Update()
@@ -179,7 +180,7 @@ public class Car : MonoBehaviour
 
 			if (Input.GetKey(KeyCode.W))
 			{
-				Throttle = 1;
+				Throttle = 1;               
 			}
 			else if (Input.GetKey(KeyCode.S))
 			{
@@ -189,9 +190,9 @@ public class Car : MonoBehaviour
 			if (Input.GetKey(KeyCode.Space))
 			{
 				EBrake = 1;
-			}
-			
-			float steerInput = 0;
+            }
+
+            float steerInput = 0;
 			if (Input.GetKey(KeyCode.A))
 			{
 				steerInput = 1;
