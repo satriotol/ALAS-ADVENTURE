@@ -162,7 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1454734939358372209}
   m_Layer: 0
-  m_Name: TrafficLight 1
+  m_Name: TrafficLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - World
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -18,9 +19,15 @@ TagManager:
   - Car
   - TrafficLight
   - NextScene
+<<<<<<< HEAD
   - Player
   - Enemy
   - Invulnerable
+=======
+  - NPC
+  - 
+  - 
+>>>>>>> 5b919275e5c18838c5f8383aac08a861eed39f98
   - 
   - 
   - 
