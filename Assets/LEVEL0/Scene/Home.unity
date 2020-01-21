@@ -2144,7 +2144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &641059480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4167,7 +4167,7 @@ PrefabInstance:
     - target: {fileID: 925987186386994546, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 925987186386994558, guid: b355d7c7adc21654b81db9807ebaf440,
         type: 3}
@@ -5201,6 +5201,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309,
+        type: 3}
+      propertyPath: DialogueCanvas
+      value: 
+      objectReference: {fileID: 514373714}
+    - target: {fileID: 8603212177760962099, guid: e6e86a8c780b4d84ebdb56566ee09309,
+        type: 3}
+      propertyPath: DialogueCanvas
+      value: 
+      objectReference: {fileID: 514373714}
     - target: {fileID: 8605062355471503383, guid: e6e86a8c780b4d84ebdb56566ee09309,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5256,28 +5266,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 8570967025928267823, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8570967025928267823, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: walk
-      value: 
-      objectReference: {fileID: 8300000, guid: 1adce2350df38244da8e3c2cbb14ece6, type: 3}
-=======
-    - target: {fileID: 8603212177760962099, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: DialogueCanvas
-      value: 
-      objectReference: {fileID: 514373714}
-    - target: {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: DialogueCanvas
-      value: 
-      objectReference: {fileID: 514373714}
->>>>>>> eba30b056e17257a669a692c07a90f71b46db3eb
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6e86a8c780b4d84ebdb56566ee09309, type: 3}
