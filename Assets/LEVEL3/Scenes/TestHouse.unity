@@ -1854,6 +1854,40 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1165643396205525884, guid: b9fda1856fa674441b1f47bede2d6296,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165643396205525884, guid: b9fda1856fa674441b1f47bede2d6296,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Alas Dan Alus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165643396205525884, guid: b9fda1856fa674441b1f47bede2d6296,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Alas : permisi Pak alus harga keris ini berpaa ya?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165643396205525884, guid: b9fda1856fa674441b1f47bede2d6296,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'Alus : oh itu ambil saja nak untukmu
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165643396205525884, guid: b9fda1856fa674441b1f47bede2d6296,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'Alas : baik Pak Kalau begitu saya ambil yang ini ya'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165643396205525884, guid: b9fda1856fa674441b1f47bede2d6296,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'Alus : iyaa makasih yaa, selamat berlibur'
+      objectReference: {fileID: 0}
     - target: {fileID: 1165643395678939072, guid: b9fda1856fa674441b1f47bede2d6296,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
