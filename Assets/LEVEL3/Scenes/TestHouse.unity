@@ -494,6 +494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Win
       objectReference: {fileID: 0}
+    - target: {fileID: 6655772300282568489, guid: e14417827836dd64886d5ebd081879c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9191686259504648287, guid: e14417827836dd64886d5ebd081879c2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1982,6 +1987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8603212176479446779, guid: e6e86a8c780b4d84ebdb56566ee09309,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.33
+      objectReference: {fileID: 0}
     - target: {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309,
         type: 3}
       propertyPath: DialogueCanvas
@@ -2051,11 +2061,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8603212176479446779, guid: e6e86a8c780b4d84ebdb56566ee09309,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.33
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8603212177760962098, guid: e6e86a8c780b4d84ebdb56566ee09309, type: 3}

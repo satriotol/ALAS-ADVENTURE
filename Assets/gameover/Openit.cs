@@ -11,6 +11,8 @@ public class Openit : MonoBehaviour
     public Transform deteksiwin;
     public float jangkauan;
     public GameObject DialogueCanvas;
+    public static bool GameIsPaused = false;
+
 
 
 

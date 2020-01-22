@@ -19,11 +19,6 @@ public class Deteksikeris : MonoBehaviour
         {
             Debug.Log("Kena Gan");
             DialogueCanvas.SetActive(true);
-            Time.timeScale = 0f;
-        }
-        else
-        {
-            DialogueCanvas.SetActive(false);
         }
     }
 }

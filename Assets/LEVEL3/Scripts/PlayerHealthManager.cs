@@ -25,7 +25,7 @@ public class PlayerHealthManager : MonoBehaviour {
 	void Update () {
 		if(playerCurrentHealth <= 0) {
 			gameObject.SetActive (false);
-            Application.LoadLevel(5);
+            Application.LoadLevel(6);
         }
 
         if (flashActive) {
