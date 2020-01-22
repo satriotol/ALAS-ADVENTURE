@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
     public void loadlevel3()
     {
         Time.timeScale = 1f;
-        Application.LoadLevel(3);
+        Application.LoadLevel(4);
     }
     public void PlayGame ()
     {
@@ -27,5 +27,9 @@ public class MainMenu : MonoBehaviour
     public void Restart()
     {
         Application.LoadLevel(Application.loadedLevel);
+    }
+    public void Restartlevel2()
+    {
+        Application.LoadLevel(3);
     }
 }

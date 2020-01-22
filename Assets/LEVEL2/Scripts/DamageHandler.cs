@@ -7,6 +7,7 @@ public class DamageHandler : MonoBehaviour
 {
     public int health = 1;
     public float invulnPeriod = 2f;
+    public GameObject kalah;
 
     float invulnTimer = 0f;
     float invulnAnimTimer = 0;
@@ -67,7 +68,10 @@ public class DamageHandler : MonoBehaviour
 
         if(health <= 0) 
         {
+            kalah.SetActive(true);
+            Time.timeScale = 0f;
             Die();
+
         }
     }
 
