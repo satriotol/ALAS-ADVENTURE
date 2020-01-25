@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Car : MonoBehaviour
 {
     public AudioClip gas, rem;
+    public bool tombolkiri, tombolkanan, tombolatas, tombolbawah;
 
     [SerializeField]
 	bool IsPlayerControlled = false;
@@ -178,11 +179,11 @@ public class Car : MonoBehaviour
 			Brake = 0;
 			EBrake = 0;
 
-			if (Input.GetKey(KeyCode.W))
+			if (Input.GetKey(KeyCode.W) || (tombolatas == true))
 			{
 				Throttle = 1;               
 			}
-			else if (Input.GetKey(KeyCode.S))
+			else if (Input.GetKey(KeyCode.S) || (tombolbawah == true))
 			{
 				//Brake = 1;
 				Throttle = -1;
@@ -193,11 +194,11 @@ public class Car : MonoBehaviour
             }
 
             float steerInput = 0;
-			if (Input.GetKey(KeyCode.A))
+			if (Input.GetKey(KeyCode.A) || (tombolkiri == true))
 			{
 				steerInput = 1;
 			}
-			else if (Input.GetKey(KeyCode.D))
+			else if (Input.GetKey(KeyCode.D) || (tombolkanan == true))
 			{
 				steerInput = -1;
 			}	
@@ -420,5 +421,37 @@ public class Car : MonoBehaviour
 	{
 		
 	}
+    public void tekankiri()
+    {
+        tombolkiri = true;
+    }
+    public void lepaskiri()
+    {
+        tombolkiri = false;
+    }
+    public void tekankanan()
+    {
+        tombolkanan = true;
+    }
+    public void lepaskanan()
+    {
+        tombolkanan = false;
+    }
+    public void tekanatas()
+    {
+        tombolatas = true;
+    }
+    public void lepasatas()
+    {
+        tombolatas = false;
+    }
+    public void tekanbawah()
+    {
+        tombolbawah = true;
+    }
+    public void lepasbawah()
+    {
+        tombolbawah = false;
+    }
 
 }

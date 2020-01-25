@@ -15,8 +15,9 @@ public class CustomPlayerController : MonoBehaviour
 	private Rigidbody2D playerRigidBody;
 	//If the player is facing to some direction
 	private bool playerMoving;
-	//Record the las direction of the player
-	public Vector2 lastMovement;
+    private bool playerflip;
+    //Record the las direction of the player
+    public Vector2 lastMovement;
 	//If the player exist. static makes that only the one that have the script added has the bool
 	private static bool playerExists;
 	//If the player it's attacking
@@ -68,23 +69,27 @@ public class CustomPlayerController : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.W) || (tombolatas == true))
             {
-                transform.Translate(Vector2.up * moveSpeed * Time.deltaTime,0f);
+                //transform.Translate(Vector2.up * moveSpeed * Time.deltaTime,0f);
+                transform.Translate(new Vector3(0f, moveSpeed * Time.deltaTime, 0f));
                 playerMoving = true;
+                playerflip = true;
             }
             if (Input.GetKey(KeyCode.S) || (tombolbawah == true))
             {
-                transform.Translate(Vector2.up * -moveSpeed * Time.deltaTime,0f);
+                transform.Translate(new Vector3(0f, -moveSpeed * Time.deltaTime, 0f));
+                //transform.Translate(Vector2.up * -moveSpeed * Time.deltaTime,0f);
                 playerMoving = true;
+                playerflip = true;
             }
 
-   //         if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
-			//{
-			//	//transform.Translate (new Vector3 (0f, Input.GetAxisRaw ("Vertical") * moveSpeed * Time.deltaTime, 0f));
+            //if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
+            //{
+            //    transform.Translate (new Vector3 (0f, Input.GetAxisRaw ("Vertical") * moveSpeed * Time.deltaTime, 0f));
 
-			//	playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, Input.GetAxisRaw("Vertical") * currentMoveSpeed);
-			//	playerMoving = true;
-			//	lastMovement = new Vector2(0f, Input.GetAxisRaw("Vertical"));
-			//}
+            //    //playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, Input.GetAxisRaw("Vertical") * currentMoveSpeed);
+            //    playerMoving = true;
+            //    lastMovement = new Vector2(0f, Input.GetAxisRaw("Vertical"));
+            //}
 
             //If the player it's not moving it stops
             if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
@@ -114,11 +119,10 @@ public class CustomPlayerController : MonoBehaviour
 
         }
 
-		//Here it's where i ser the animator
-        playerAnim.SetFloat("MoveX",Input.GetAxisRaw("Horizontal"));
+        playerAnim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         playerAnim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
 		playerAnim.SetBool("PlayerMoving", playerMoving);
-		playerAnim.SetFloat("LastMoveX", lastMovement.x);
+        playerAnim.SetFloat("LastMoveX", lastMovement.x);
 		playerAnim.SetFloat("LastMoveY", lastMovement.y);
 
         

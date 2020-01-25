@@ -4394,6 +4394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf012ea1137927241b4b5fa2e805d007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingScreen: {fileID: 0}
+  menulist: {fileID: 0}
+  slider: {fileID: 0}
 --- !u!114 &3163174164925401742
 MonoBehaviour:
   m_ObjectHideFlags: 0
